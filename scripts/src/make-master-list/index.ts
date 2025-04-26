@@ -5,8 +5,8 @@ const makeMasterList = () => {
   const filename = 'frequency.csv';
   const path = '..';
   const columnName = 'spanish';
-  const md = '# Master List\n\n';
-  const mdPath = '../frequency.md';
+  const md = '';
+  const mdPath = '../../Master List.md';
   
   const values: string[] = [];
   
