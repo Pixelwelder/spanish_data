@@ -14,7 +14,7 @@ const makeMasterList = () => {
     .pipe(csv())
     .on('data', (row) => {
       if (row[columnName]) {
-        values.push(`[[${row[columnName]}]]`);
+        values.push(`${row[columnName]}`);
       }
     })
     .on('end', () => {
