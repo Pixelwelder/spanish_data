@@ -6,15 +6,17 @@ const makeMasterList = () => {
   const path = '..';
   const columnName = 'spanish';
   const md = '';
-  const mdPath = '../../Master List.md';
+  const mdPath = '../../Words - Master.md';
   
   const values: string[] = [];
   
+  let count = 1;
   fs.createReadStream(`${path}/${filename}`)
     .pipe(csv())
     .on('data', (row) => {
       if (row[columnName]) {
-        values.push(`${row[columnName]}`);
+        values.push(`${count}. ${row[columnName]}`);
+        count++;
       }
     })
     .on('end', () => {

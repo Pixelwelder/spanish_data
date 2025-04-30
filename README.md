@@ -1,3 +1,6 @@
+# Addendum 2025-04-27
+This project is specifically to generate the word lists that I've been using. ⁠
+# Original README
 This data is built from [Wiktionary](https://en.wiktionary.org) and [Tatoeba](tatoeboa.org) datasets using my [Wiktionary Parser](https://github.com/doozan/enwiktionary_parser) and [Spanish Tools](https://github.com/doozan/spanish_tools)
 
 This data is used to build the free, open-source Spanish to English dictionary available in StarDict and Aard2/slob formats in the [Release section](https://github.com/doozan/spanish_data/releases). It's also used to build my [6001 Spanish Vocab](https://github.com/doozan/6001_Spanish) anki deck, and is provided here with the hope that others may find additional uses for it.
